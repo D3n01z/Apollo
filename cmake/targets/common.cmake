@@ -59,6 +59,7 @@ if(WIN32)
     find_file(NPM_CLI npm-cli.js
             PATHS
             "${CMAKE_PREFIX_PATH}"
+            "C:/Program Files/nodejs/node_modules/npm/bin"
             "C:/msys64/ucrt64/lib/node_modules/npm/bin"
             REQUIRED)
 else()
